@@ -1,0 +1,286 @@
+@media only screen and (max-width: 768px) {
+    html,
+    body {
+        overflow: visible;
+    }
+    .header .logo {
+        left: 10px;
+        top: 10px;
+        width: 50px;
+        height: 50px;
+        padding: 6px;
+    }
+    .header .logo a img {
+        max-width: 100%;
+    }
+    .vertsect,
+    .accent,
+    .bullets {
+        display: none;
+    }
+    #slide1 {
+        background: url(../images/bgms1.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .contactpopup {
+        width: 90%;
+        height: 90%;
+        overflow-y: scroll;
+    }
+    .coverlay h3 {
+        font-size: 22px;
+    }
+    .coverlay .sctext {
+        height: 72px;
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .coverlay .sctext span {
+        height: 72px;
+    }
+    .coverlaywrapper {
+        height: 112px;
+    }
+    .menulinx {
+        padding: 75px 30px 0 30px;
+    }
+    .menuoverlay {
+        width: 100%;
+    }
+    .menulinx ul li {
+        font-size: 26px;
+    }
+    .slidecontent {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .slidecontent .ssection {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .slidecontent h2 {
+        font-size: 44px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    .slidecontent h2 .hrow {
+        display: inline-block;
+        overflow: visible;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .slidecontent h2 .hrow span {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    .slidecontent .sdesc {
+        font-size: 16px;
+        line-height: 18px;
+        padding-top: 6px;
+        width: auto;
+    }
+    #slide2 .slidebg {
+        background: url(../images/slide2_mobile.jpg) no-repeat left center;
+        background-size: cover;
+    }
+    a.cta {
+        padding: 6px;
+    }
+    #slide4 .slidebg {
+        background: url(../images/slide4.jpg) no-repeat 66% center;
+    }
+    #slide6 .slidebg {
+        background: url(../images/slide6.jpg) no-repeat 50% center;
+    }
+    #slide7 .slidebg {
+        background: url(../images/slide7.jpg) no-repeat 80% center;
+    }
+    /* INNER */
+    .inner-container {
+        padding: 20px;
+        overflow-y: scroll;
+    }
+    .inner .col1,
+    .inner .col2 {
+        opacity: 1 !important;
+    }
+    .inner .col1 {
+        width: 100%;
+        float: none;
+        height: auto;
+        position: relative;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .infobox {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .inner .col1.open {
+        height: 100%;
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+    .pad30 {
+        padding: 0 10px;
+    }
+    .inner .col1 h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .inner .col1 h4 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .inner .col2 {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        margin-left: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .inner .col2 h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 0;
+        border: 0px;
+    }
+    .col1 h3 {
+        font-size: 14px;
+    }
+    .serdesc {
+        font-size: 14px;
+    }
+    .inner .colwrapper {
+        padding: 20px;
+        position: relative;
+        transform: translateY(0%);
+        top: 0;
+    }
+    .inner .colwrapper2 {
+        padding: 20px;
+        position: relative;
+        transform: translateY(0%);
+        top: 0;
+    }
+    .imgwrapper {
+        display: block;
+        width: 100%;
+        float: none;
+        height: 120px;
+    }
+    .inner-image h3 {
+        line-height: 30px;
+        font-size: 36px;
+    }
+    .chota-nav a {
+        padding: 5px 10px;
+    }
+    .chota-nav a img {
+        width: 80%;
+    }
+    .descwrapper {
+        width: 100%;
+        float: none;
+        margin-top: 15px;
+    }
+    .descwrapper h3 {
+        font-size: 36px;
+        line-height: 34px;
+    }
+    .descwrapper h4 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .inright p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .innerswipe_base::after {
+        content: "WEBSITES & GRAPHIC DESIGN";
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .inner-close {
+        top: 26px;
+    }
+    .col1_swipe,
+    .col2_swipe,
+    .col3_swipe {
+        display: none;
+    }
+    /* .inner-close
+  {
+       cursor: pointer;
+      position: absolute;
+      z-index: 41;
+      left: 50%;
+      transform:translateX(-50%);
+      top: 70px;
+
+  } */
+    /*  CASE STUDY*/
+    .inner-work h2 {
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    .inner-work h3 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .inner-work .col1 {
+        display: none;
+    }
+    .inner-work .col2 {
+        margin-left: 0;
+    }
+    .grid-sizer,
+    .grid-item,
+    .grid-item-2,
+    .grid-item-3 {
+        width: 100%;
+    }
+    .inner-work-container .col2 .col2wrapper .contentholder {
+        padding: 5px;
+    }
+    .inner-work-container .col2 .col2wrapper {
+        padding-left: 5px;
+        padding-top: 90px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+    }
+    .gridtitle {
+        font-size: 32px;
+        letter-spacing: -1px;
+        line-height: 28px;
+    }
+    .gridtint {
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .grid-item img {
+        -webkit-filter: grayscale(0%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .inright p {
+        font-size: 14px;
+        line-height: 16px;
+        height: 70px;
+        overflow-y: scroll;
+    }
+    .descwrapper h3 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .descwrapper h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
